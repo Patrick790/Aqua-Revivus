@@ -1,0 +1,56 @@
+.water-consumption-history {
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+}
+
+.water-consumption-history h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.water-consumption-history p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.water-consumption-history {
+    text-align: left;
+    padding: 20px;
+}
+
+.water-consumption-history h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.water-consumption-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.water-consumption-history th, .water-consumption-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.water-consumption-history th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.water-consumption-history tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.water-consumption-history tr:hover {
+    background-color: #f1f1f1;
+}
+
+.water-consumption-history td {
+    font-size: 14px;
+}

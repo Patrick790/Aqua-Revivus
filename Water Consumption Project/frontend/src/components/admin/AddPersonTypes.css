@@ -1,0 +1,117 @@
+.form-container {
+
+}
+
+
+.form-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #0056b3;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilizare câmpuri */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.input-container input {
+    width: calc(100% - 24px);
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-container input[type="color"] {
+    padding: 10px 100px;
+}
+
+.input-container input[type="radio"] {
+    padding: 10px 90px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    font-size: 16px;
+    color: #aaa;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: -12px;
+    font-size: 13px;
+    color: #007bff;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 0 5px;
+    border-radius: 4px;
+    transform: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Butonul de conectare */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.form-container p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.form-container p span {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container p span:hover {
+    color: #0056b3;
+}

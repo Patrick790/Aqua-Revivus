@@ -1,0 +1,117 @@
+
+.form-container {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.7), rgba(135, 206, 250, 0.8), rgba(70, 130, 180, 0.8));
+    padding: 35px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.form-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #0056b3;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilizare câmpuri */
+.input-container-login {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.input-container-login input {
+    width: calc(100% - 24px);
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-container-login input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.input-container-login label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    font-size: 16px;
+    color: #aaa;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.input-container-login input:focus + label,
+.input-container-login input:not(:placeholder-shown) + label {
+    top: -12px;
+    font-size: 13px;
+    color: #007bff;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 0 5px;
+    border-radius: 4px;
+    transform: none;
+}
+
+.error-message {
+    color:  #ff4d4d !important;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Butonul de conectare */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.form-container p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.form-container p span {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.form-container p span:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,33 @@
+[INFO ] 2025-02-18 14:48:19.445 [main] AquaRevivusApplication - Starting AquaRevivusApplication using Java 17.0.9 with PID 35656 (C:\Users\ardel\OneDrive\Documents\GitHub\AquaRevivus\backend\AquaRevivus\build\classes\java\main started by ardel in C:\Users\ardel\OneDrive\Documents\GitHub\AquaRevivus)
+[INFO ] 2025-02-18 14:48:19.458 [main] AquaRevivusApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-02-18 14:48:20.828 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-02-18 14:48:20.916 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 8 JPA repository interfaces.
+[INFO ] 2025-02-18 14:48:22.025 [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 2025-02-18 14:48:22.042 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2025-02-18 14:48:22.047 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2025-02-18 14:48:22.048 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+[INFO ] 2025-02-18 14:48:22.154 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2025-02-18 14:48:22.154 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2644 ms
+[INFO ] 2025-02-18 14:48:22.586 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-02-18 14:48:22.696 [main] Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO ] 2025-02-18 14:48:22.769 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-02-18 14:48:23.208 [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 2025-02-18 14:48:23.276 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2025-02-18 14:48:23.395 [main] HikariPool - HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@446a692f
+[INFO ] 2025-02-18 14:48:23.398 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2025-02-18 14:48:24.922 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-02-18 14:48:24.991 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2025-02-18 14:48:25.710 [main] QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO ] 2025-02-18 14:48:26.261 [main] InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN ] 2025-02-18 14:48:26.262 [main] InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN ] 2025-02-18 14:48:26.434 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-02-18 14:48:27.954 [main] EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+[INFO ] 2025-02-18 14:48:28.899 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2025-02-18 14:48:28.927 [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 2025-02-18 14:48:28.945 [main] AquaRevivusApplication - Started AquaRevivusApplication in 10.016 seconds (process running for 12.216)
+[INFO ] 2025-02-18 14:48:29.372 [RMI TCP Connection(5)-192.168.0.150] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2025-02-18 14:48:29.372 [RMI TCP Connection(5)-192.168.0.150] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2025-02-18 14:48:29.374 [RMI TCP Connection(5)-192.168.0.150] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2025-02-18 15:06:05.393 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2025-02-18 15:06:05.425 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2025-02-18 15:06:05.442 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

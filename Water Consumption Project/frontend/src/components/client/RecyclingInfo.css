@@ -1,0 +1,25 @@
+.recycling-info {
+    text-align: left;
+    padding: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.recycling-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.recycling-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.recycling-info img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+}

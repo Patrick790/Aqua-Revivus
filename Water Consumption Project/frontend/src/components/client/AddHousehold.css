@@ -1,0 +1,157 @@
+.add-household-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.5rem;
+    background: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-section-add-household {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(240, 255, 255, 0.6));
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 48%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #004080;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-household-label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #004080;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.person-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.person-row input[type="text"] {
+    flex: 2;
+}
+
+.person-row input[type="date"] {
+    flex: 1.5;
+}
+
+.person-row select {
+    flex: 1;
+}
+
+.person-row:last-child {
+    margin-bottom: 0;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.submit-household-button {
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #004080;
+    background: rgba(173, 216, 230, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(173, 216, 230, 0.8);
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.submit-household-button:hover {
+    background: rgba(173, 216, 230, 0.8);
+    color: #003366;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.persons-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.persons-list {
+    flex: 1;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.add-person-button {
+    background-color: transparent;
+    color: #3498db;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.add-person-button:hover {
+    background-color: #ecf0f1;
+}
+
+.plus-sign {
+    margin: 0;
+}
+
+.error-message-addHousehold {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.success-message-addHousehold {
+    color: green;
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.table-wrapper {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto; /* Center the table div */
+    margin-bottom: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.table-container {
+    overflow-x: hidden; /* Add horizontal scrolling if the table is too wide */
+    overflow-y: auto; /* Add vertical scrolling if the table is too tall */
+    max-height: 250px;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #0056b3;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #0056b3;
+    font-weight: bold;
+}

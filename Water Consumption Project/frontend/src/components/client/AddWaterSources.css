@@ -1,0 +1,134 @@
+.add-water-sources-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 2rem;
+    padding: 1.5rem;
+    background: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-section {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(240, 255, 255, 0.6));
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 48%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #004080;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #004080;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.source-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.source-row input[type="text"] {
+    flex: 2;
+}
+
+.source-row select {
+    flex: 1;
+}
+
+.source-row:last-child {
+    margin-bottom: 0;
+}
+
+.delete-button-add-source {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button-add-source:hover {
+    background-color: #c0392b;
+}
+
+.add-source-button {
+    background-color: transparent;
+    color: #3498db;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.add-source-button:hover {
+    background-color: #ecf0f1;
+}
+
+.plus-sign {
+    margin: 0;
+}
+
+.submit-sources-button {
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #004080;
+    background: rgba(173, 216, 230, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(173, 216, 230, 0.8);
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.submit-sources-button:hover {
+    background: rgba(173, 216, 230, 0.8);
+    color: #003366;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sources-list {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
